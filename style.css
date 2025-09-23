@@ -18,3 +18,44 @@ img{
     box-shadow: 0 4px 12px skyblue;
 
 }
+
+fieldset {
+width: 400px;
+position: relative;
+border: 1px solid skyblue;
+margin: 10px; 		
+padding: 10px; 		
+background: black;
+}
+	
+label { 
+	color: skyblue;
+	font-size: 1.00em;
+	font-weight: bold;
+	text-align: left;
+	float:left;
+	width: 150px;
+	}	
+	
+input{ 
+	display: block;
+	float:left;
+	width: 400px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+input.envoi 
+{
+   margin: 0px auto;
+	float: none;
+}
+
+div.envoi
+{
+float: left;
+width: 400px;
+text-align:center;
+margin: 10px; 		/* marge externe */
+}
+

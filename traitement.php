@@ -2,27 +2,27 @@
 <!-- ce DOCTYPE est nécessaire avec IE pour les marges automatiques -->
 <html>
 <!-- en-tete technique-->
-<head>
-<title>Formulaire</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
- <link href="style.css" type="text/css" rel="stylesheet" media="all">
-</head>
-<body>
-<h4>Confirmation de commande</h4>
-
-<?php
-
-$nom=$_POST["fnom"];
-$prenom=$_POST["fprenom"];
-$numero=$_POST["fnum"];
-$email=$_POST["femail"];
-
-
-echo "<p>Cher $nom $prenom</p>";
-echo "<p>Votre demande de contact ma bien été transmis je vous répond au plus vite </p>";
-echo "<p>Cordialement Nuno Miguel De Caldas Gomes</p>";
-?>
-
-
-</body>
+ <head>
+  <title>Formulaire</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <link href="style.css" type="text/css" rel="stylesheet" media="all">
+ </head>
+ <body>
+   <h4>Confirmation de commande</h4>
+   
+   <?php
+   
+   $nom=$_POST["fnom"];
+   $prenom=$_POST["fprenom"];
+   $numero=$_POST["fnum"];
+   $email=$_POST["femail"];
+   
+   
+   echo "<p>Cher $nom $prenom</p>";
+   echo "<p>Votre demande de contact ma bien été transmis je vous répond au plus vite </p>";
+   echo "<p>Cordialement Nuno Miguel De Caldas Gomes</p>";
+   ?>
+  
+  
+ </body>
 </html>
